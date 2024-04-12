@@ -4,4 +4,4 @@ Scenario: testing the get call for User Details
  
 Given url 'https://reqres.in/api/users/2'
 When method GET
-Then status 201
+Then status 206
